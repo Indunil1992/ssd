@@ -1,0 +1,94 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "1e5d64e4-bc91-4e17-a5d1-78350e4fa1d0": {
+        "id": "1e5d64e4-bc91-4e17-a5d1-78350e4fa1d0",
+        "parent": null,
+        "name": "ssd.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "ssd.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "ssd"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1615271553422
+      },
+      "5eed9307-2da4-407c-91f9-c1c8f2a790a7": {
+        "id": "5eed9307-2da4-407c-91f9-c1c8f2a790a7",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "78fc33df-65a7-477b-9634-67318054beb9": {
+        "id": "78fc33df-65a7-477b-9634-67318054beb9",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "1e5d64e4-bc91-4e17-a5d1-78350e4fa1d0"
+    ],
+    "currentFileId": "1e5d64e4-bc91-4e17-a5d1-78350e4fa1d0",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.6.1",
+    "projectName": "ssd",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1615271718511
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "ssd",
+      "url": "https://github.com/Indunil1992/ssd"
+    }
+  }
+}
